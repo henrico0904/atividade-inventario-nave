@@ -97,3 +97,8 @@ inventarioBeta.unshift(itemDestacado); // utilizei o mesmo raciocinio que a tare
 inventarioBeta.splice(8,1);
 console.table(inventarioBeta);
 console.log("------------------------------------------")
+
+//Um artefato incorreto foi inserido no topo da Alpha por engano. Ele deve ser excluído.
+let artefatoIncorreto = inventarioAlpha.shift()//removi o primeiro item do array
+console.table(inventarioAlpha)
+console.log(`o artefato incorreto foi removido:${artefatoIncorreto}`)
