@@ -62,3 +62,6 @@ let inventarioBeta = [
   ["Capa de Invisibilidade", "Terra", 3900],
   ["Terminal de Dobra", "Alpha Centauri", 10500]
 ];
+tarefaRemovida = inventarioBeta.pop() //remove o ultimo item do array do inventario beta
+console.table(inventarioBeta);
+console.log(`o artefato obsoleto removido foi: ${tarefaRemovida}`)
