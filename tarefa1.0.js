@@ -65,3 +65,7 @@ let inventarioBeta = [
 tarefaRemovida = inventarioBeta.pop() //remove o ultimo item do array do inventario beta
 console.table(inventarioBeta);
 console.log(`o artefato obsoleto removido foi: ${tarefaRemovida}`)
+
+console.log("------------------------------------------")
+
+//Três novos artefatos da Terra foram entregues à nave Alpha. Adicione-os ao final.
