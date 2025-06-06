@@ -107,3 +107,12 @@ console.log(`o artefato incorreto foi removido:${artefatoIncorreto}`)
 artefatoIncorreto = inventarioBeta.shift();
 console.table(inventarioBeta);
 console.log(`o item ${artefatoIncorreto} foi enviado a um museu`);
+
+//Verifique se a “Relíquia de Zordon” está presente no inventário Beta.(pulada)
+
+
+
+
+//Verifique se o item “Nanofibra Luminosa” ainda está disponível na Alpha (pulada)
+
+
