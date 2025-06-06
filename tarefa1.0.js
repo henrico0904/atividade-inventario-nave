@@ -102,3 +102,8 @@ console.log("------------------------------------------")
 let artefatoIncorreto = inventarioAlpha.shift()//removi o primeiro item do array
 console.table(inventarioAlpha)
 console.log(`o artefato incorreto foi removido:${artefatoIncorreto}`)
+
+//O primeiro item da Beta pertence a um museu e deve ser removido.
+artefatoIncorreto = inventarioBeta.shift();
+console.table(inventarioBeta);
+console.log(`o item ${artefatoIncorreto} foi enviado a um museu`)
