@@ -143,6 +143,14 @@ console.log("Lista Atualizada")
 console.table(inventarioAlpha)
 console.log("------------------------------------------")
 
+//Dois itens no meio do inventário Beta foram contaminados e precisam ser removidos.
+let meio = inventarioBeta.length/2
+console.log(meio)
+let itemContaminado = inventarioBeta.splice(11, 2)
+console.log(`os itens contaminados [${itemContaminado.join(" /")}] foram excluidos`)
+console.log("Lista Atualizada")
+console.table(inventarioBeta)
+
 
 
 
