@@ -107,12 +107,28 @@ console.log(`o artefato incorreto foi removido:${artefatoIncorreto}`)
 artefatoIncorreto = inventarioBeta.shift();
 console.table(inventarioBeta);
 console.log(`o item ${artefatoIncorreto} foi enviado a um museu`);
+console.log("------------------------------------------")
 
 //Verifique se a “Relíquia de Zordon” está presente no inventário Beta.(pulada)
 
 
 
-
 //Verifique se o item “Nanofibra Luminosa” ainda está disponível na Alpha (pulada)
+
+
+
+
+//Gere uma string com todos os planetas do inventário Alpha, separados por um delimitador.(pulada)
+
+
+//Crie um texto com os nomes dos 10 primeiros itens da Beta, separados por vírgulas.(pulada)
+let nomes10 = inventarioBeta.slice(0,9)
+console.log(nomes10.join(" ,"));
+
+//Gere uma nova lista com os 5 primeiros itens da nave Beta para inspeção.
+let listaTopCinco = inventarioBeta.slice(0,5)
+console.log(listaTopCinco);
+
+
 
 
