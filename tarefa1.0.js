@@ -28,8 +28,7 @@ let inventarioAlpha = [
     ["Cristal Ômega", "Andrômeda", 13900]
   ];
 
-  //removendo a tarefa duplicada no array
-  let tarefaRemovida = inventarioAlpha.pop();
+  let tarefaRemovida = inventarioAlpha.pop(); //removendo a tarefa duplicada no array
   console.table(inventarioAlpha);
   console.log(`o item duplicado removido foi: ${tarefaRemovida}`);
   console.log("------------------------------------------")
@@ -85,10 +84,16 @@ console.log("------------------------------------------")
 
 //Um item da Alpha precisa aparecer no topo da lista para ser destacado na vitrine.
 let itemDestacado = inventarioAlpha[3]
-console.log(itemDestacado);
-
-inventarioAlpha.unshift(itemDestacado);
+console.log(`o item destacado na lista ALPHA é: ${itemDestacado}`);
+inventarioAlpha.unshift(itemDestacado);//adicionei o item escolhido no array e exclui a copia que não estava no começo;
 inventarioAlpha.splice(3,1)
-//adicionei o item escolhido no array e exclui a copia que não estava no começo;
 console.table(inventarioAlpha)
+console.log("------------------------------------------")
+
+//Um item da Beta deve ser promovido para o início da lista para estudo prioritário.
+itemDestacado = inventarioBeta[8];
+console.log(`o item destacado na lista BETA é:${itemDestacado}`);
+inventarioBeta.unshift(itemDestacado); // utilizei o mesmo raciocinio que a tarefa amterior
+inventarioBeta.splice(8,1);
+console.table(inventarioBeta);
 console.log("------------------------------------------")
