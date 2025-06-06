@@ -126,7 +126,7 @@ let nomes10 = inventarioBeta.slice(0,9)
 console.log(nomes10.join(" ,"));
 
 //Gere uma nova lista com os 5 primeiros itens da nave Beta para inspeção.
-let listaTopCinco = inventarioBeta.slice(0,5)
+let listaTopCinco = inventarioBeta.slice(0,5);
 console.log(listaTopCinco);
 
 
