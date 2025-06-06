@@ -166,12 +166,18 @@ console.log(listaUnida)
 console.log("------------------------------------------")
 
 //Crie uma versão com os nomes de todos os itens da Beta em letras maiúsculas.
-let betaMaiusculo = inventarioBeta.map(itens => itens.map(item => item.toUpperCase()))
-console.log(betaMaiusculo)
+
 //pulado
 
 //Converta os valores de todos os itens da Alpha para uma moeda interestelar (multiplicação).
 //pulado
+//pulado até a atividade 26
+//Inverta a ordem dos 15 primeiros itens da Alpha como simulação de viagem no tempo.
+let quinzePrimeiros = inventarioAlpha.slice(0, 15) // seleciona os 15 primeiros itens do array
+let quinzePrimeirosReverse = quinzePrimeiros.reverse() //inverte a lista dos 15 primeiros
+let ultimos = inventarioAlpha.splice(16, inventarioAlpha.length)
+
+console.table(quinzePrimeiros.concat(ultimos))
 
 
 
