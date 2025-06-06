@@ -74,3 +74,11 @@ inventarioAlpha.push(["Capacete Desconhecido", "Terra",3401]);
 inventarioAlpha.push(["Sucata", "Terra", 1402]);
 
 console.table(inventarioAlpha)
+console.log("------------------------------------------")
+
+//Dois artefatos especiais de Kepler foram coletados e adicionados à nave Beta.
+inventarioBeta.push(["Xbox 3600","Kepler", 2340]); //adiciona mais itens ao array 
+inventarioBeta.push(["Playstation 6","Kepler",2341]);
+
+console.table(inventarioBeta);
+console.log("------------------------------------------")
