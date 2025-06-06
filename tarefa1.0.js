@@ -69,3 +69,8 @@ console.log(`o artefato obsoleto removido foi: ${tarefaRemovida}`)
 console.log("------------------------------------------")
 
 //Três novos artefatos da Terra foram entregues à nave Alpha. Adicione-os ao final.
+inventarioAlpha.push(["Fóssil","Terra",3400]); //adiciona mais um item ao array
+inventarioAlpha.push(["Capacete Desconhecido", "Terra",3401]);
+inventarioAlpha.push(["Sucata", "Terra", 1402]);
+
+console.table(inventarioAlpha)
