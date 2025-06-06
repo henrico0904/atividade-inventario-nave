@@ -82,3 +82,13 @@ inventarioBeta.push(["Playstation 6","Kepler",2341]);
 
 console.table(inventarioBeta);
 console.log("------------------------------------------")
+
+//Um item da Alpha precisa aparecer no topo da lista para ser destacado na vitrine.
+let itemDestacado = inventarioAlpha[3]
+console.log(itemDestacado);
+
+inventarioAlpha.unshift(itemDestacado);
+inventarioAlpha.splice(7,1)
+//adicionei o item escolhido no array e exclui a copia que não estava no começo;
+console.table(inventarioAlpha)
+console.log("------------------------------------------")
