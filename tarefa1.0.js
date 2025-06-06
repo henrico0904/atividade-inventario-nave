@@ -170,5 +170,9 @@ let betaMaiusculo = inventarioBeta.map(itens => itens.map(item => item.toUpperCa
 console.log(betaMaiusculo)
 //pulado
 
+//Converta os valores de todos os itens da Alpha para uma moeda interestelar (multiplicação).
+//pulado
+
+
 
 
