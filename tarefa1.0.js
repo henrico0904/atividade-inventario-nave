@@ -106,4 +106,4 @@ console.log(`o artefato incorreto foi removido:${artefatoIncorreto}`)
 //O primeiro item da Beta pertence a um museu e deve ser removido.
 artefatoIncorreto = inventarioBeta.shift();
 console.table(inventarioBeta);
-console.log(`o item ${artefatoIncorreto} foi enviado a um museu`)
+console.log(`o item ${artefatoIncorreto} foi enviado a um museu`);
