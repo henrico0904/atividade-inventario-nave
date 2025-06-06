@@ -88,7 +88,7 @@ let itemDestacado = inventarioAlpha[3]
 console.log(itemDestacado);
 
 inventarioAlpha.unshift(itemDestacado);
-inventarioAlpha.splice(7,1)
+inventarioAlpha.splice(3,1)
 //adicionei o item escolhido no array e exclui a copia que não estava no começo;
 console.table(inventarioAlpha)
 console.log("------------------------------------------")
