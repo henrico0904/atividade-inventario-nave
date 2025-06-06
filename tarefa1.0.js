@@ -165,5 +165,10 @@ listaUnida = alpha5.concat(beta5);
 console.log(listaUnida)
 console.log("------------------------------------------")
 
+//Crie uma versão com os nomes de todos os itens da Beta em letras maiúsculas.
+let betaMaiusculo = inventarioBeta.map(itens => itens.map(item => item.toUpperCase()))
+console.log(betaMaiusculo)
+//pulado
+
 
 
