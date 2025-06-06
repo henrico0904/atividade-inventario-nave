@@ -150,6 +150,13 @@ let itemContaminado = inventarioBeta.splice(11, 2)
 console.log(`os itens contaminados [${itemContaminado.join(" /")}] foram excluidos`)
 console.log("Lista Atualizada")
 console.table(inventarioBeta)
+console.log("------------------------------------------")
+
+//Unifique os inventários Alpha e Beta em uma única estrutura.
+let listaUnida = inventarioAlpha.concat(inventarioBeta);
+console.log("Lista Unida")
+console.log(listaUnida);
+console.log("------------------------------------------")
 
 
 
