@@ -158,6 +158,12 @@ console.log("Lista Unida")
 console.log(listaUnida);
 console.log("------------------------------------------")
 
+//Junte os cinco primeiros itens de cada nave em uma nova vitrine de destaques.
+let alpha5 = inventarioAlpha.slice(0,5)
+let beta5 = inventarioBeta.slice(0,5)
+listaUnida = alpha5.concat(beta5);
+console.log(listaUnida)
+console.log("------------------------------------------")
 
 
 
