@@ -122,12 +122,17 @@ console.log("------------------------------------------")
 
 
 //Crie um texto com os nomes dos 10 primeiros itens da Beta, separados por vírgulas.(pulada)
-let nomes10 = inventarioBeta.slice(0,9)
+let nomes10 = inventarioBeta.slice(0,10);
 console.log(nomes10.join(" ,"));
 
 //Gere uma nova lista com os 5 primeiros itens da nave Beta para inspeção.
 let listaTopCinco = inventarioBeta.slice(0,5);
-console.log(listaTopCinco);
+console.table(listaTopCinco);
+
+//Separe os 10 últimos itens do inventário Alpha para estudo temporal.
+console.log(inventarioAlpha.length);
+let dezUltimos = inventarioAlpha.slice(17,27)
+console.table(dezUltimos);
 
 
 
